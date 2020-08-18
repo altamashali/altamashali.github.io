@@ -11,12 +11,18 @@
 body {
     font-family: SF-Pro-Display;
     background-color: #F8E8D5 ;
+    display: block;
+    margin: 0;
 }
 .main-container {
     margin-left: 25%;
     margin-right: 25%;
-    top: 10%;
-    position: absolute;
+
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 .image {
