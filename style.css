@@ -1,0 +1,45 @@
+@font-face {
+    font-family: AppleFontBold;
+    src: url("SF-Pro-Display-Bold.otf");
+}
+body {
+    font-family: AppleFontBold;
+    background-color: #E0E0E0;
+}
+h1 {
+    color: #660000;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: -15px;
+    position: relative;
+    top: 150px;
+
+}
+h2 {
+    color: #660000;
+    font-size: 25px;
+    position: relative;
+    top: 150px;
+    text-align: center;
+
+}
+.center {
+    width: 10%;
+    height: 10%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    bottom: 500px;
+}
+ul{
+    display: table;   /* Allow the centering to work */
+    list-style: none;
+    position: relative;
+    text-align: center;
+    top: 150px;
+    left: -20px;
+}
+li{
+    display: inline;
+
+}
