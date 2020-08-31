@@ -8,17 +8,40 @@
     <body>
         <div class="main-container">
             <div class="text">
-                <h1>Altamash Ali</h1>
-                <h2>(ul-tah-mush) (uh-lee)</h2>
-                <p>Altamash is an undergraduate engineering student at Texas A&M University pursuing a major in Computer Science and minors in Cybersecurity and Mathematics. He is also an Eagle Scout, DECA International Finalist, and NASA Aerospace Scholar. He has a passion for software engineering and application security. He is also an avid supporter of blockchain technology. Altamash is currently working on the development of smart contracts on the Ethereum platform. He is also currently working on developing his own blockchain protocol which he hopes one day can serve as the infrastructure for other blockchain applications. As a precursor to this project, Altamash developed an ERC-20 cryptocurrency token ready to be listed on exchanges. Altamash believes that blockchain will play an increasingly important role in our society in the future.</p>            
+                <img class="profile-picture" src="./images/profile-picture.jpg">
+                <h1>Howdy, I'm Altamash Ali!</h1>
+                <div class="pronounciation">
+                    <div class="pronounce-audio">
+                        <img id="audio-icon" src="./images/logos/audio.png" onclick="playName('./images/pronounciation.mp3')">
+                    </div>
+                    <div class="pronounce-text">
+                        <h2>(ul-tah-mush) (uh-lee)</h2>
+                    </div>     
+                </div>
             </div>
+            <p>Altamash is an undergraduate engineering student at Texas A&M University pursuing a major in Computer Science and minors in Cybersecurity and Mathematics. He is also an Eagle Scout, DECA International Finalist, and NASA Aerospace Scholar. He has a passion for software engineering and application security. He is also an avid supporter of blockchain technology. Altamash is currently working on the development of smart contracts on the Ethereum platform. He is also currently working on developing his own blockchain protocol which he hopes one day can serve as the infrastructure for other blockchain applications. As a precursor to this project, Altamash developed an ERC-20 cryptocurrency token ready to be listed on exchanges. Altamash believes that blockchain will play an increasingly important role in our society in the future.</p>            
+
             <div class="image">
                 <ul>
-                    <li><a href="https://linkedin.com/in/altamashali" target="_blank"><img src="./images/logos/linkedin.png" title="Connect With Me"></a></li>
-                    <li><a href="/documents/resume.pdf" target="_blank"> <img src="./images/logos/resume.png" title="View Resume"></a></li>
-                    <li><a href="https://github.com/altamashali" target="_blank"><img src="./images/logos/github.png" title="View Projects"></a></li>
+                    <li class="quick-links"><a href="https://linkedin.com/in/altamashali" target="_blank"><img class="logos" src="./images/logos/linkedin.png" title="Connect With Me"></a></li>
+                    <li class="quick-links"><a href="./documents/resume.pdf" target="_blank"> <img class="logos" src="./images/logos/resume.png" title="View Resume"></a></li>
+                    <li class="quick-links"><a href="https://github.com/altamashali" target="_blank"><img class="logos" src="./images/logos/github.png" title="View Projects"></a></li>
                 </ul>            
             </div>
         </div>
+        <script>
+            function playName(url) {
+                new Audio(url).play();
+            }
+            const link_color = document.querySelectorAll('.page-link-style');
+            for (let i = 0; i < link_color.length; i++ ){
+                link_color[i].addEventListener('mouseover', (e) => {
+                    link_color[i].style.color = 'white';
+                });
+                link_color[i].addEventListener('mouseout', (e) => {
+                    link_color[i].style.color = '';
+                });
+            }
+        </script>
     </body>
 </html>
