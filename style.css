@@ -85,3 +85,16 @@ body {
 .resume-image{
     width: 900px;
 }
+
+#form_container{
+	background-size:100% 100%;
+    padding:15px 15px;
+    padding-top: 0px;
+    margin-top:0px;
+    margin-left: 0px;
+}
+#form_container input[type='text'],
+#form_container input[type='email'],
+#form_container textarea{
+	background: rgba(255,255,255,0.2);	
+}
