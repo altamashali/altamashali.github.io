@@ -8,7 +8,7 @@ Tested working with PHP5.4 and above (including PHP 7 )
  */
 require_once './vendor/autoload.php';
 
-use vendor\FormGuide\Handlx\FormHandler;
+use FormGuide\Handlx\FormHandler;
 
 
 $pp = new FormHandler(); 
