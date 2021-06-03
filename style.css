@@ -14,8 +14,8 @@ body {
     margin: 200px;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 75px;
-    margin-right: 75px;
+    margin-left: 15%;
+    margin-right: 15%;
     background-color: #121212;
 }
 .header-container{
@@ -29,10 +29,8 @@ body {
 .left-container{
     border: 0px;
     border-right: 1px solid white;
-    padding: 32px;
+    padding: 16px;
     padding-top: 32px;
-    padding-right: 16px;
-
 }
 .right-container{
     padding: 32px;
@@ -108,11 +106,13 @@ body {
     text-align: right;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-left: 0px;
 }
 .page-item{
     list-style: none;
     font-size: 20px;
     padding: 10px;
+    padding-left: 0px;
     padding-top: 0px;
 }
 .page-link{
