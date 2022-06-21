@@ -8,7 +8,7 @@ const about = {
   role: 'Full-Stack Software Engineer',
   description:
     'An alumni of Texas A&M, Altamash is currently an engineer at J.P. Morgan, having also previously interned there and at American Express.',
-  resume: 'https://docs.google.com/document/d/1Lfg8Jol-pqxnxvDYvK4EcZdU9ShCAB8hCos3jtquG6w/edit?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1Nv6r7MdcpuntLifIr60cXx9Zbl9hlSoE/view?usp=sharing',
   social: {
     linkedin: 'https://linkedin.com/in/altamashali',
     github: 'https://github.com/altamashali',
