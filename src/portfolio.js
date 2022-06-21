@@ -7,7 +7,7 @@ const about = {
   name: 'Altamash',
   role: 'Full-Stack Software Engineer',
   description:
-    'An alumni of Texas A&M, Altamash is currently an engineer at J.P. Morgan, having also previously interned there and at American Express.',
+    'An alumni of Texas A&M University, Altamash is currently an engineer at J.P. Morgan, having also previously interned there and at American Express.',
   resume: 'https://drive.google.com/file/d/1Nv6r7MdcpuntLifIr60cXx9Zbl9hlSoE/view?usp=sharing',
   social: {
     linkedin: 'https://linkedin.com/in/altamashali',
