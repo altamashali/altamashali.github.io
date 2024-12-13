@@ -151,7 +151,7 @@ body {
   margin-left: 1em;
   margin-right: 0.75em;
   background-color: #212121;
-  color: #b5b5b5;
+  color: white; /* #b5b5b5 */
   text-align: center;
 }
 .copy-icon {
