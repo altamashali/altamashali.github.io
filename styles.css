@@ -127,6 +127,7 @@ body {
   border-radius: 1em;
   text-align: left;
   text-justify: inter-word;
+  font-size: 0.85rem;
   color: #121212;
 }
 .bio-bottom-box:hover {
