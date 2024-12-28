@@ -29,6 +29,24 @@ body {
 .name {
   font-size: 2.5rem;
 }
+@keyframes pulse {
+  0%,
+  100% {
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: scale(1.025);
+  }
+}
+.profile-image {
+  border-radius: 50%;
+  width: 5.5rem;
+  animation: pulse 2.5s infinite;
+  -moz-box-shadow: 0 0 2.5rem #ffffff25;
+  -webkit-box-shadow: 0 0 2.5rem #ffffff25;
+  box-shadow: 0px 0px 2.5rem #ffffff25;
+}
+
 @media (max-width: 1120px) {
   .item-section {
     width: 75%;
@@ -171,6 +189,24 @@ body {
 #copied-confirmation {
   padding-top: 0.25em;
 }
+
+@font-face {
+  font-family: "Glacial-Indifference-Regular";
+  src: url("./fonts/GlacialIndifference-Regular.otf");
+}
+
+@font-face {
+  font-family: "Glacial-Indifference-Bold";
+  src: url("./fonts/GlacialIndifference-Bold.otf");
+}
+.glacial-indifference-regular {
+  font-family: "Glacial-Indifference-Regular";
+}
+
+.glacial-indifference-bold {
+  font-family: "Glacial-Indifference-Bold";
+}
+
 .fira-sans-thin {
   font-family: "Fira Sans", sans-serif;
   font-weight: 100;
