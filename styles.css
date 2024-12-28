@@ -41,6 +41,7 @@ body {
 .profile-image {
   border-radius: 50%;
   width: 5.5rem;
+  box-shadow: 0rem 0rem 2.5rem #ffffff40;
 }
 
 @media (max-width: 1120px) {
