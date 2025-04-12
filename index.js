@@ -18,7 +18,7 @@ function hideBio() {
 }
 
 function copyEmail() {
-  navigator.clipboard.writeText("mail@altamashali.com");
+  navigator.clipboard.writeText("contact@altamashali.com");
   const confirmation = document.getElementById("copied-confirmation");
   confirmation.style.display = "block";
   setTimeout(() => {
