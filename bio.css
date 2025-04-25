@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Computer-Modern";
+  src: url("./fonts/cm.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Computer-Modern";
+  src: url("./fonts/cm-italics.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Computer-Modern";
+  src: url("./fonts/cm-bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Computer-Modern";
+  src: url("./fonts/cm-bold-italics.ttf") format("truetype");
+  font-style: italic;
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: #1b263b;
+  height: 100%;
+}
+
+body {
+  background-color: #1b263b;
+  color: white;
+  font-family: "Computer-Modern";
+  font-style: normal;
+  font-weight: normal;
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fcbf49;
+}
+a:hover {
+  color: #f77f00;
+}
+
+ul {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 2vh;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  padding: 1em 1em 1em 1em;
+}
+li > a {
+  text-decoration: underline;
+  text-decoration-color: #fcbf49;
+}
+li > a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f77f00;
+}
+.copyright {
+  font-size: 1.5vh;
+}
+
+@media screen and (max-width: 800px) {
+  ul {
+    flex-direction: column;
+  }
+  li {
+    padding: 0.5em;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .center-box {
+    font-size: 2vh;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .title {
+    font-size: 2.5vh;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .center-box {
+    font-size: 2.5vh;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .title {
+    font-size: 3vh;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .center-box {
+    font-size: 2.5vh;
+    margin-left: 10em;
+    margin-right: 10em;
+  }
+  .title {
+    font-size: 3vh;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .center-box {
+    font-size: 2.5vh;
+    margin-left: 20em;
+    margin-right: 20em;
+  }
+  .title {
+    font-size: 3vh;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-height: 1000px) {
+  .center-box {
+    font-size: 1.5vh;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .title {
+    font-size: 2vh;
+  }
+  ul {
+    font-size: 1.5vh;
+  }
+}
