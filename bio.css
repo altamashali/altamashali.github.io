@@ -1,28 +1,51 @@
 @font-face {
-  font-family: "Computer-Modern";
-  src: url("./fonts/cm.ttf") format("truetype");
+  font-family: "Computer-Modern-Serif";
+  src: url("./fonts/cm-serif.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
-  font-family: "Computer-Modern";
-  src: url("./fonts/cm-italics.ttf") format("truetype");
+  font-family: "Computer-Modern-Serif";
+  src: url("./fonts/cm-serif-italic.ttf") format("truetype");
   font-style: italic;
   font-weight: normal;
 }
 @font-face {
-  font-family: "Computer-Modern";
-  src: url("./fonts/cm-bold.ttf") format("truetype");
+  font-family: "Computer-Modern-Serif";
+  src: url("./fonts/cm-serif-bold.ttf") format("truetype");
   font-style: normal;
   font-weight: bold;
 }
 @font-face {
-  font-family: "Computer-Modern";
-  src: url("./fonts/cm-bold-italics.ttf") format("truetype");
+  font-family: "Computer-Modern-Serif";
+  src: url("./fonts/cm-serif-bold-italic.ttf") format("truetype");
   font-style: italic;
   font-weight: bold;
 }
-
+@font-face {
+  font-family: "Computer-Modern-Sans";
+  src: url("./fonts/cm-sans.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Computer-Modern-Sans";
+  src: url("./fonts/cm-sans-italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Computer-Modern-Sans";
+  src: url("./fonts/cm-sans-bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Computer-Modern-Sans";
+  src: url("./fonts/cm-sans-bold-italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: bold;
+}
 html,
 body {
   background-color: #1f1f1f;
@@ -31,7 +54,7 @@ body {
 }
 body {
   color: #d1cfc0;
-  font-family: "Computer-Modern";
+  font-family: "Computer-Modern-Sans";
   font-style: normal;
   font-weight: normal;
   text-align: center;
