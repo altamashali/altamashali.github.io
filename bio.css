@@ -118,11 +118,11 @@ li > a:hover {
 /* vertical viewing */
 @media (aspect-ratio < 3/4) {
   .main {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   .footer-list {
-    text-align: left;
+    /* text-align: left; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     list-style: none;
@@ -132,7 +132,7 @@ li > a:hover {
   }
   .header-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     list-style: none;
     padding: 0;
     gap: 0; /* spacing between items */
