@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: #121212 !important;
+}
+body {
+  background-color: #121212;
+  text-align: center;
+  color: #b5b5b5 !important;
+  min-height: 100vh;
+}
+.white-ify {
+  color: #ffffff;
+  display: inline;
+}
+
+.item-section {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.socials {
+  padding: 1.5em;
+  display: flex;
+  justify-content: center;
+}
+.name {
+  font-size: 2.75rem;
+}
+@keyframes pulse {
+  0%,
+  100% {
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: scale(1.025);
+  }
+}
+.profile-image {
+  border-radius: 50%;
+  width: 5.5rem;
+  animation: pulse 2s infinite;
+  box-shadow: 0px 0px 2.5rem #33443c;
+}
+
+@media (max-width: 1120px) {
+  .item-section {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 800px) {
+  .socials {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+  }
+  .social {
+    margin-top: 1em;
+  }
+  .name {
+    font-size: 2rem !important;
+  }
+}
+@media (max-width: 550px) {
+}
+
+.social {
+  background-color: #212121;
+  box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12),
+    0px 10px 32px -4px rgba(24, 39, 75, 0.1),
+    inset 0px 0px 2px 1px rgba(255, 255, 255, 0.05);
+  border-radius: 0.75em;
+  color: whitesmoke;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  display: flex;
+  align-items: center;
+}
+.social:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.26);
+  transform: scale(1.01);
+  cursor: pointer;
+}
+.section-title {
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.item-box {
+  background-color: #212121;
+  margin-top: 1em;
+  border-radius: 0.5em;
+  color: white;
+  border: 0px solid transparent;
+  box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12),
+    0px 10px 32px -4px rgba(24, 39, 75, 0.1),
+    inset 0px 0px 2px 1px rgba(255, 255, 255, 0.05);
+}
+.item-box:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.26);
+  transform: scale(1.01);
+  cursor: pointer;
+}
+.item-link {
+  height: 100%;
+  width: 100%;
+  padding: 0.75em;
+  color: #ffffff;
+  display: block;
+}
+.item-link:hover {
+  color: #ffffff;
+}
+.social-link {
+  height: 100%;
+  width: 100%;
+  color: #ffffff;
+  display: flex;
+  padding: 0.25em 0.6em 0.25em 0.6em;
+}
+.social-link:hover {
+  color: #ffffff;
+}
+.bio-top-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25em;
+  padding: 12px;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.bio-bottom-box {
+  background-color: white;
+  margin: 1em;
+  padding: 1.5em;
+  border-radius: 1em;
+  text-align: left;
+  text-justify: inter-word;
+  font-size: 0.85rem;
+  color: #121212;
+}
+.bio-bottom-box:hover {
+  cursor: default;
+}
+#dropdown-icon-down {
+  display: none;
+}
+.email-box {
+  width: min-content;
+  margin: auto;
+  background-color: #212121;
+  color: #121212;
+  display: flex;
+  border-radius: 0.75em;
+  align-items: center;
+  box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12),
+    0px 10px 32px -4px rgba(24, 39, 75, 0.1),
+    inset 0px 0px 2px 1px rgba(255, 255, 255, 0.05);
+}
+.email-address {
+  margin-left: 1em;
+  margin-right: 0.75em;
+  background-color: #212121;
+  color: white; /* #b5b5b5 */
+  text-align: center;
+}
+.copy-icon {
+  border-radius: 0 0.75em 0.75em 0;
+  width: 20%;
+  background-color: #2f2f2f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+}
+.copy-icon:hover {
+  background-color: #2b3188;
+  cursor: pointer;
+}
+#copied-confirmation {
+  padding-top: 0.25em;
+}
+
+@font-face {
+  font-family: "Glacial-Indifference-Regular";
+  src: url("./fonts/GlacialIndifference-Regular.otf");
+}
+
+@font-face {
+  font-family: "Glacial-Indifference-Bold";
+  src: url("./fonts/GlacialIndifference-Bold.otf");
+}
+.glacial-indifference-regular {
+  font-family: "Glacial-Indifference-Regular";
+}
+
+.glacial-indifference-bold {
+  font-family: "Glacial-Indifference-Bold";
+}
+
+.fira-sans-thin {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.fira-sans-extralight {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.fira-sans-light {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fira-sans-medium {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fira-sans-semibold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fira-sans-bold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fira-sans-extrabold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.fira-sans-black {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.fira-sans-thin-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.fira-sans-extralight-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.fira-sans-light-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.fira-sans-regular-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.fira-sans-medium-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.fira-sans-semibold-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.fira-sans-bold-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.fira-sans-extrabold-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.fira-sans-black-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.photo-box {
+  width: 50%;
+  height: 50%;
+}
