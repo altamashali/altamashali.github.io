@@ -114,22 +114,22 @@ li > a:hover {
 .copyright {
   font-size: 0.8em;
 }
-
+.footer-list {
+  /* text-align: left; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+  padding: 0;
+  gap: 0; /* spacing between items */
+  /* grid-auto-rows: auto; */
+}
 /* vertical viewing */
 @media (aspect-ratio < 3/4) {
   .main {
     padding-left: 10%;
     padding-right: 10%;
   }
-  .footer-list {
-    /* text-align: left; */
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    list-style: none;
-    padding: 0;
-    gap: 0; /* spacing between items */
-    /* grid-auto-rows: auto; */
-  }
+
   .header-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
