@@ -48,12 +48,12 @@
 }
 html,
 body {
-  background-color: #1f1f1f;
+  background-color: #141413;
   height: 100%;
   margin: 0;
 }
 body {
-  color: #d1cfc0;
+  color: #faf8f7;
   font-family: "Computer-Modern-Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -84,7 +84,7 @@ body {
 a {
   display: inline-block;
   text-decoration: none;
-  color: #f76f53;
+  color: #d87657;
   transition: transform 0.1s ease;
 }
 a:hover {
