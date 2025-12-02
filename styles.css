@@ -54,7 +54,7 @@ body {
 }
 body {
   color: #d1cfc0;
-  font-family: "Computer-Modern-Sans";
+  font-family: "Computer-Modern-Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   text-align: center;
