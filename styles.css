@@ -54,7 +54,7 @@ body {
 }
 body {
   color: #faf8f7;
-  font-family: "Computer-Modern-Sans", sans-serif;
+  font-family: "Computer-Modern-Serif", serif;
   font-style: normal;
   font-weight: normal;
   text-align: center;
@@ -79,6 +79,7 @@ body {
 }
 .email {
   font-size: 0.9em;
+  color: #9c9b93;
 }
 
 a {
