@@ -72,6 +72,7 @@ body {
 }
 .name {
   font-size: 1.75em;
+  color: #d87657;
 }
 .header,
 .footer > ul {
@@ -84,12 +85,13 @@ body {
 
 a {
   display: inline-block;
-  text-decoration: none;
   color: #d87657;
+  text-decoration: none;
   transition: transform 0.1s ease;
 }
 a:hover {
   transform: scale(1.025);
+  color: #faf8f7;
 }
 
 ul {
