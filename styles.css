@@ -72,6 +72,9 @@ body {
 }
 .name {
   font-size: 1.75em;
+  font-weight: bold;
+  margin: 0;
+  display: inline;
 }
 .header,
 .footer > ul {
