@@ -57,25 +57,30 @@ body {
   font-family: "Computer-Modern-Serif", serif;
   font-style: normal;
   font-weight: normal;
-  text-align: center;
   font-size: clamp(15px, 1.5vw + 1.5vh, 22px);
-}
 
-.main {
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: center;
+
   height: 100vh;
   padding-left: 25%;
   padding-right: 25%;
 }
+
 .header {
   font-size: 1.57em;
   margin: 0;
+  padding: 0.5em;
 }
 .email {
   font-size: 0.9em;
+  padding: 0.5em;
+}
+.paragraph {
+  padding: 0.5em;
 }
 
 @keyframes colorChange {
@@ -107,7 +112,6 @@ a:hover {
   transform: scale(1.025);
   color: #faf8f7;
 }
-
 ul {
   /* font-style: italic; */
   font-weight: normal;
@@ -143,7 +147,7 @@ li > a:hover {
 }
 /* vertical viewing */
 @media (aspect-ratio < 3/4) {
-  .main {
+  body {
     padding-left: 10%;
     padding-right: 10%;
   }
