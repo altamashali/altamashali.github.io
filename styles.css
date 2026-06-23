@@ -75,6 +75,9 @@ body {
   margin: 0;
   padding: 0.5em;
 }
+.header-icon {
+  color: #d87657;
+}
 .email {
   font-size: 0.9em;
   padding: 0.5em;
