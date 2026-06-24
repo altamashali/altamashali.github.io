@@ -61,8 +61,8 @@ body {
 
   display: flex;
   flex-direction: column;
-  text-align: center;
-  align-items: center;
+  text-align: left;
+  align-items: baseline;
   justify-content: center;
 
   height: 100vh;
@@ -73,17 +73,17 @@ body {
 .header {
   font-size: 1.57em;
   margin: 0;
-  padding: 0.5em;
+  padding: 0.5rem;
 }
 .header-icon {
   color: #d87657;
 }
 .email {
   font-size: 0.9em;
-  padding: 0.5em;
+  padding: 0.5rem;
 }
 .paragraph {
-  padding: 0.5em;
+  padding: 0.5rem;
 }
 
 @keyframes colorChange {
@@ -125,7 +125,7 @@ ul {
   margin: 0;
 }
 li {
-  padding: 0.5em;
+  padding: 0.5rem;
 }
 li > a {
   /* text-decoration: underline; */
@@ -144,6 +144,7 @@ li > a:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   list-style: none;
+  text-align: center;
   padding: 0;
   gap: 0; /* spacing between items */
   /* grid-auto-rows: auto; */
