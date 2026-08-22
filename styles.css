@@ -1,54 +1,12 @@
-@font-face {
+/* @font-face {
   font-family: "Computer-Modern-Serif";
   src: url("./fonts/cm-serif.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
-}
-@font-face {
-  font-family: "Computer-Modern-Serif";
-  src: url("./fonts/cm-serif-italic.ttf") format("truetype");
-  font-style: italic;
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Computer-Modern-Serif";
-  src: url("./fonts/cm-serif-bold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: bold;
-}
-@font-face {
-  font-family: "Computer-Modern-Serif";
-  src: url("./fonts/cm-serif-bold-italic.ttf") format("truetype");
-  font-style: italic;
-  font-weight: bold;
-}
-@font-face {
-  font-family: "Computer-Modern-Sans";
-  src: url("./fonts/cm-sans.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Computer-Modern-Sans";
-  src: url("./fonts/cm-sans-italic.ttf") format("truetype");
-  font-style: italic;
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Computer-Modern-Sans";
-  src: url("./fonts/cm-sans-bold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: bold;
-}
-@font-face {
-  font-family: "Computer-Modern-Sans";
-  src: url("./fonts/cm-sans-bold-italic.ttf") format("truetype");
-  font-style: italic;
-  font-weight: bold;
-}
+} */
 html,
 body {
-  background-color: #141413;
+  background-color: hsl(60, 3%, 8%);
   height: 100%;
   margin: 0;
 }
