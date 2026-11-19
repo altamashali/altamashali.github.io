@@ -54,7 +54,7 @@ ul {
 }
 
 /* vertical viewing */
-@media (aspect-ratio < 3/4) {
+@media (aspect-ratio < 6/5) {
   body {
     padding-left: 10%;
     padding-right: 10%;
