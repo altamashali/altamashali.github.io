@@ -26,11 +26,11 @@ p {
   /* text-align: center; */
 }
 a {
-  /* animation: colorChange 6s infinite; */
   display: inline-block;
   color: #d87657;
   text-decoration: none;
   transition: transform 0.1s ease;
+  /* animation: colorChange 6s infinite; */
 }
 a:hover {
   transform: scale(1.025);
