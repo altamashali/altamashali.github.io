@@ -7,23 +7,22 @@ body {
 
   color: #faf8f7;
   font-family: math;
-  font-size: clamp(1rem, 1.5vw + 1.5vh, 1.25rem);
+  font-size: clamp(1rem, 1.5vw + 1.5vh, 1.4rem);
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   /* align-items: center; */
+  gap: 1rem;
 }
 .header {
-  font-size: 1.5em;
-  padding-bottom: 1rem;
+  font-size: 1.4em;
 }
 .header-icon {
   color: #d87657;
 }
 p {
   margin: 0;
-  padding: 0 0 1rem 0;
   /* text-align: center; */
 }
 a {
@@ -40,7 +39,7 @@ a:hover {
 ul {
   display: flex;
   list-style-type: none;
-  padding: 0 0 1rem 0;
+  padding-left: 0;
   margin: 0;
   gap: 1rem;
 }
